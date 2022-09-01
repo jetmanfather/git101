@@ -5,7 +5,7 @@ import Swal from 'sweetalert2'
 const Login = () => {
 
     // สร้างตัวแปรแบบ State ไว้รับค่าจากฟอร์ม
-    const [username, setUsername] = useState('')
+    const [username, setUsername] = useState('test')
     const [password, setPassword] = useState('')
 
 
